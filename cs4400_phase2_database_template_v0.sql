@@ -4,7 +4,7 @@
 -- Team __
 -- Andrew Leng 903832819
 -- Darnell Chen dchen458
--- Team Member Name (GT username)
+-- Nicole Li nli319
 -- Team Member Name (GT username)
 
 -- Directions:
@@ -163,7 +163,7 @@ CREATE TABLE airport (
     airportID CHAR(3) PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     city VARCHAR(100) NOT NULL,
-    state VARCHAR(100),
+    state VARCHAR(100) NOT NULL,
     country CHAR(3) NOT NULL,
     locationID VARCHAR(50),
 	FOREIGN KEY (locationID) REFERENCES location(locationID)
